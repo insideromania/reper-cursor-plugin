@@ -23,7 +23,10 @@ No API keys or client secrets are required. All access strictly respects your RE
 | `list_deals` | Read-only | List pipeline deals, stages, and currency totals. |
 | `get_deal` | Read-only | Detailed view of a specific pipeline deal. |
 | `list_email_campaigns` | Read-only | List project email campaigns with delivery/open/click/reply/conversion stats. |
-| `get_email_campaign` | Read-only | Detailed campaign report (step performance, top links, daily trend, conversion sources). |
+| `get_email_campaign` | Read-only | Detailed campaign report with interactive MCP App funnel & daily chart. |
+| `get_dashboard_report` | Read-only | 30-day activity series (calls, emails, SMS), lead stage breakdown, and KPIs (MCP App chart). |
+| `get_pipeline_funnel` | Read-only | Pipeline stages, weighted values, win rate, rotting deals, and top deals (MCP App funnel). |
+| `get_retention_report` | Read-only | Active customer health, risk signals, overdue touchpoints, and renewals (MCP App report). |
 
 ## Support & Policies
 
