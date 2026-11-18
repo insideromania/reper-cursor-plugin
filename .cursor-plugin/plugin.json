@@ -1,0 +1,27 @@
+{
+  "name": "reper",
+  "displayName": "REPER CRM",
+  "version": "1.0.0",
+  "description": "Connect Cursor to REPER CRM over OAuth 2.1 to search B2B companies (ONRC/ANAF), inspect pipeline deals and email campaigns, and save lead notes.",
+  "author": {
+    "name": "REPER.APP",
+    "email": "contact@reper.app",
+    "url": "https://reper.app"
+  },
+  "homepage": "https://reper.app",
+  "repository": "https://github.com/insideromania/reper-cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "reper",
+    "crm",
+    "b2b",
+    "sales",
+    "romania",
+    "leads",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": ["crm", "b2b", "sales", "mcp", "oauth"],
+  "mcpServers": "./mcp.json"
+}
